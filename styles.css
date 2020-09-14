@@ -1,16 +1,21 @@
 #board {
   padding: 3em;
   text-align: center;
+ 
+
 }
 .row > div {
   float: left;
   height: 100px;
   width: 100px;
-  clear: right;
-}
+  line-height: 100px;
+  font-size: 75px;
+  
+}         
 .row {
   margin: 0 auto;
   width: 302px;
+  clear: both;
 }
 .top {
   border-bottom: 1px black solid;
@@ -27,4 +32,11 @@
 }
 .row > div:hover {
   cursor: pointer;
+}
+#reset-button{
+  height: 35px;
+  width: 100px;
+  margin:  0 auto;
+  text-align: center;
+  border: 1px black solid;
 }
